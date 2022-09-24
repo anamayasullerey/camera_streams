@@ -30,7 +30,7 @@ The solution must allow:
 
 ***The solution must allow queues to be mapped to different threads of a multithreaded CPU***
 
-# Output queue definition and its API
+# Output queue definition and its APIs
 Each frame queue stores frame buffers in YUV format. Additionally the queue must also store frame timestamp form the stream, encoded frame arrival timestamp, and decoded frame queueing timestamp.
 
 ## Functional API
