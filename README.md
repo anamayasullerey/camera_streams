@@ -28,6 +28,8 @@ The solution must allow:
 - command supporting flush of all queues
 - command support a timestamp based initialization of all queues
 
+** The solution must allow queues to be mapped to different threads of a multithreaded CPU **
+
 # Output queue and its API
 Each frame queue stores frame buffers in YUV format. Additionally the queue must also store frame timestamp form the stream, encoded frame arrival timestamp, and decoded frame queueing timestamp.
 
@@ -42,12 +44,13 @@ The following API is required for each queue:
 - Metod to make a queue inactive instantaneiouly or after a specified clock time
 
 # Queue monitoring API
-A queue must be able to log the timestamps of all the frames passing through the queue
-A queue must be able to log the method in which an enqueued fram was removed from the queue
-A queue must be able to log a frame at entry and exit based on a callback function result
-A queue must be able handle turning on and turning off of logging while it is active
-A queue must support time window based logging
-A queue must support sampled logging (1 in N frames)
+- A queue must be able to log the timestamps of all the frames passing through the queue
+- A queue must be able to log the method in which an enqueued fram was removed from the queue
+- A queue must be able to log a frame at entry and exit based on a callback function result
+- A queue must be able handle turning on and turning off of logging while it is active
+- A queue must support time window based logging
+- A queue must support sampled logging (1 in N frames)
+
 
 
 
