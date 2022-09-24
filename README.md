@@ -21,28 +21,4 @@ We will concentrate on the following two cameras:
 # Requirements
 
 ## Camera interface support
-### 4K HD Digital camera
-This camera supports the following formats and all of these formats need to be supported in the solution.
-3840x2160@ 30fps MJPEG
-2592x1944@ 30fps MJPEG
-2048x1536@ 30fps MJPEG
-1600x1200@ 30fps MJPEG
-1920x1080@ 30fps MJPEG
-1280x1024@30fps MJPEG
-
-# SVPRO 5MP camera
-2592x 1944 (V) pixels MJPEG 15fps YUY2 3fps
-2048x 1536 (V) pixels MJPEG 15ps YUY2 3fps
-1600 (H) x 1200 (V) pixels MJPEG 15fps YUY2 3fps
-1920 (H) x 1080 (V) pixels MJPEG 15fps YUY2 3fps
-1280 (H) x 1024 (V) pixels MJPEG 15fps YUY2 7.5fps
-1280 (H) x 720 (V) pixels MJPEG 30fps YUY2 7.5fps
-1024 (H) x 768 (V) pixels MJPEG 30fps YUY2 15fps
-800 (H) x 600 (V) pixels MJPEG 30fps YUY2 30fps
-640 (H) x 480 (V) pixels MJPEG 30fps YUY2 30fps
-320 (H) x 240 (V) pixels MJPEG 30fps YUY2 30fps
-
-Resolution & FPS 3840x2160@ 30fps MJPEG / 2592x1944@ 30fps MJPEG
-2048x1536@ 30fps MJPEG /1600x1200@ 30fps MJPEG
-
-1920x1080@ 30fps MJPEG/ 1280x1024@30fps MJPEG
+[Link to format/size/framerate requirements](https://github.com/anamayasullerey/camera_streams/blob/main/format_requirements.md)
