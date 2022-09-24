@@ -9,5 +9,5 @@ There is no currently available open source software to convert the encoded stre
 # Context of the solution
 ## Camera
 We will concentrate on the following two cameras:
-1. (4K HD Digital camera)[https://www.amazon.com/gp/product/B08F385MPL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1]
-2. (SVPRO 5MP camera)[https://www.amazon.com/gp/product/B07CBNSXTH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1]
+1. [4K HD Digital camera](https://www.amazon.com/gp/product/B08F385MPL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+2. [SVPRO 5MP camera](https://www.amazon.com/gp/product/B07CBNSXTH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
