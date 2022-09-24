@@ -30,9 +30,10 @@ The solution must allow:
 
 ***The solution must allow queues to be mapped to different threads of a multithreaded CPU***
 
-# Output queue and its API
+# Output queue definition and its API
 Each frame queue stores frame buffers in YUV format. Additionally the queue must also store frame timestamp form the stream, encoded frame arrival timestamp, and decoded frame queueing timestamp.
 
+## Functional API
 The following API is required for each queue:
 - Specification of frame size and queue depth at initializtion
 - Queue pop command that returns frame buffer, timestamps and number of frames in the queue. The top entry in the queue is deleted after the execution of this command.
@@ -41,9 +42,10 @@ The following API is required for each queue:
 - Flush command that flushes the queue
 - Flush_till command that takes timestamp argument flushes any frame before that specified timestamp
 - Method to make a queue active instantaneously or after a specified clock time
-- Metod to make a queue inactive instantaneiouly or after a specified clock time
+- Method to make a queue inactive instantaneiouly or after a specified clock time
+- Mechanism to select drop from front or drop from back in case of overflow
 
-# Queue monitoring API
+## Monitoring API
 - A queue must be able to log the timestamps of all the frames passing through the queue
 - A queue must be able to log the method in which an enqueued fram was removed from the queue
 - A queue must be able to log a frame at entry and exit based on a callback function result
@@ -51,6 +53,12 @@ The following API is required for each queue:
 - A queue must support time window based logging
 - A queue must support sampled logging (1 in N frames)
 
-
-
-
+## Statistics
+- Number of frames moved
+- Number of frames moved since last activation
+- Number of frames dropped
+- Number of frames dropped since last activation
+- Max and min latencies at the input and output of the queues
+- Average queue depth
+- Max queue depth
+- Min queue depth
