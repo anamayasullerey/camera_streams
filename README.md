@@ -72,3 +72,6 @@ The following API is required for each queue:
 - Average queue depth
 - Max queue depth
 - Min queue depth
+
+# Performance
+The solution should be process to do 4K frames at 30fps using 50% of a single core performance of a newer generation I5 processor.
