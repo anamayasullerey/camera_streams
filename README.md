@@ -83,5 +83,5 @@ VLC player allows capture and display of camera streams. A codec can be selected
 * [Another project with similar goals](https://pyimagesearch.com/2017/02/06/faster-video-file-fps-with-cv2-videocapture-and-opencv/)
 * [Github repo for the above project](https://github.com/PyImageSearch/imutils/blob/9f740a53bcc2ed7eba2558afed8b4c17fd8a1d4c/imutils/video/pivideostream.py)
 * [picamera: for Raspberry Pi](https://picamera.readthedocs.io/en/release-1.13/)
-* [Vidio for Linux API](https://www.kernel.org/doc/html/v4.8/media/uapi/v4l/pixfmt.html)
+* [Video for Linux API](https://www.kernel.org/doc/html/v4.8/media/uapi/v4l/pixfmt.html)
 
