@@ -8,10 +8,12 @@ There is no currently available open source software to convert the encoded stre
 
 # High level requirements
 ## Operating system
-Ubuntu 22.04 LTS / Ubuntu 22.10
+Ubuntu 22.10 / and newer version
 
 ## Package framework
-The goal is to first create a solution in Python. Underlying components can be Python based to begin with. A longer term goal will be to optimize the solution which may require C++ based implementation of the key parts.
+To minimize the latency and compute requirement, as well as to support high frame rates the solution needs to be packaged as a single binary build in C++. There needs to be a python wrapper around it for usability.
+
+The structure should be modular. A single queue should be separated as an implementation and work by itself. Mutli queue framework should be built using the single queue abstraction.
 
 ## Cameras
 We will concentrate on the following two cameras:
