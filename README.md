@@ -10,7 +10,7 @@ There is no currently available open source software to convert the encoded stre
 ## Operating system
 Ubuntu 22.04 LTS / Ubuntu 22.10
 
-## Package framwork
+## Package framework
 The goal is to first create a solution in Python. Underlying components can be Python based to begin with. A longer term goal will be to optimize the solution which may require C++ based implementation of the key parts.
 
 ## Cameras
