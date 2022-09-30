@@ -4,7 +4,7 @@ Framework for generating RGB Image frames from MJPEG encoded streams from multip
 # Introduction
 AI appliactions require RGB format image frames. The cameras available through retail channels have USB based connectivity. These cameras are able to transfer black and white images at a lower resolution in the raw format. For colored images in 2K or 4K format these cameras provide encoded video streams. YUV formats for higher resolution are either not supported or the frame rate is too low for many application. The encoded video stream help in many ways due to reduced bandwidth and bufferring requirements.
 
-There is no currently available open source software to convert the encoded stream to RGB format. There are pieces of these software available but we have not found any well packaged software. One challenge is that many of the cameras do not come with any docuentation. To tackle this challenge we want to focus on couple of specific cameras and keep the device layer functionality as a separate layer so that it can be extended ro other devices in the future. 
+There is no currently available open source software to convert the encoded stream to RGB format. There are pieces of these software available but we have not found any well packaged software. One challenge is that many of the cameras do not come with any documentation. To tackle this challenge we want to focus on couple of specific cameras and keep the device layer functionality as a separate layer so that it can be extended ro other devices in the future. 
 
 # High level requirements
 ## Operating system
